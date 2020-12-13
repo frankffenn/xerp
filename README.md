@@ -1,6 +1,6 @@
 # xerp
 
-> A Vue.js project
+> An ERP(Enterprise Resource Planning) system written in vue.js (front-end) and golang (back-end).
 
 ## Build Setup
 
