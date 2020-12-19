@@ -15,6 +15,11 @@ export default new Router({
       meta: { title: '登录' }
     },
     {
+      path:'/home',
+      component: () => import ('../components/page/Home.vue'),
+      meta: { title: '首页'}
+    },
+    {
       path: '*',
       redirect: '/404'
     }
