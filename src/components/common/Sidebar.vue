@@ -64,27 +64,37 @@ export default {
                 {
                     icon: 'el-icon-user-solid',
                     index: 'staff',
-                    title: '员工查询'
+                    title: '员工管理'
                 },  
                 {
                     icon: 'el-icon-shopping-cart-1',
                     index: 'stock',
-                    title: '库存查询'
+                    title: '库存管理'
                 },
                 {
                     icon: 'el-icon-mouse',
-                    index: 'goods',
-                    title: '商品管理',
+                    index: 'order',
+                    title: '订单管理',
                     subs: [
                         {
-                            index: 'modify',
-                            title: '信息删改'
+                            index: 'order_sales',
+                            title: '客户订单'
                         },
                         {
-                            index: 'add',
-                            title: '增加商品'
+                            index: 'order_purchases',
+                            title: '采购订单'
                         },
                     ]
+                },
+                {
+                    icon: 'el-icon-box',
+                    index: 'commodity',
+                    title: '商品管理'
+                },
+                {
+                    icon: 'el-icon-money',
+                    index: 'finance',
+                    title: '财务管理'
                 },
             ]        
         }

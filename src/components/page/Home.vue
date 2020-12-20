@@ -10,6 +10,7 @@
 </template>
 
 <script>
+import bus from "../common/bus.js";
 import vSidebar from '../common/Sidebar.vue';
 export default {
     data() {
