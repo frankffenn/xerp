@@ -53,3 +53,31 @@ a {
 .content-collapse {
     left: 65px;
 }
+
+.content-header {
+    height: 80px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    right: 20px;
+    top: 0;
+}
+
+.content-header .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgb(0, 0, 0,0.3);
+}
+
+.content-header .el-icon-bell {
+    margin: 0 20px;
+   /* line-height: 18px; */
+   font-size: x-large;
+}
+
+.content-header .el-icon-arrow-down {
+    margin: 0 10px;
+   /* line-height: 18px; */
+}

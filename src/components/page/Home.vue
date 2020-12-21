@@ -3,6 +3,11 @@
         <v-sidebar></v-sidebar>
         <div class="content" :class="{'content-collapse':collapse}">
             <transition name="move" mode="out-in">
+                <div class="content-header">
+                    <i class="el-icon-bell"></i>
+                    <img class="avatar" src="../../assets/messi.jpeg" alt="">
+                    <i class="el-icon-arrow-down"></i>
+                </div>
                 <router-view></router-view>
             </transition>
         </div>
