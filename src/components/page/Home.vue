@@ -11,8 +11,8 @@
                         <i class="el-icon-arrow-down"></i>
                     </div>
                 </div>
-                <router-view></router-view>
             </transition>
+            <router-view></router-view>
         </div>
     </div>
 </template>
@@ -38,4 +38,5 @@ export default {
 </script>
 
 <style>
+
 </style>
